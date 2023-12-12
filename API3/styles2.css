@@ -1,0 +1,134 @@
+html {
+  scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  .page2 {
+    text-align: center;
+    font-family: 'PT Serif', serif;
+    color: white;
+    margin-bottom:30px;
+    font-size:40px;
+    
+  }
+  .header {
+    position: relative;
+    background-image: url('bg2.gif');
+    max-height:5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top:-10px;
+    margin-left:-20px;
+    margin-right:150px;
+    width:102.1%;
+    margin-bottom: 50px;
+    padding:300px 0;
+  }
+  .header h1{
+    text-align: left;
+    margin-top:-155px;
+    margin-left:100px;
+  }
+  .header p{
+    font-family: 'PT Serif', serif;
+    text-align: left;
+    width:400px;
+    color:white;
+    margin-top:-15px;
+    margin-left:100px;
+  }
+  .header a{
+    text-decoration: none;
+    color:#FFD83B;
+  
+  }
+  .title-word {
+    animation: color-animation 3s linear infinite;
+    
+    }
+    
+    .title-word-1 {
+    --color-1:#7ED957;
+    --color-2:#ffb0b0;
+    --color-3:#FFD429;
+    font-size:45px;
+    }
+    
+    
+    @keyframes color-animation {
+    0%    {color: var(--color-1)}
+    32%   {color: var(--color-1)}
+    33%   {color: var(--color-2)}
+    65%   {color: var(--color-2)}
+    66%   {color: var(--color-3)}
+    99%   {color: var(--color-3)}
+    100%  {color: var(--color-1)}
+    }
+    
+    /* Here are just some visual styles. 🖌 */
+    
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+  background: #FE9202; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+  background: #C87200; 
+  }
+    .container {
+    display: grid;
+    place-items: center;  
+    text-align: center;
+    height: 100vh
+    }
+    
+    .title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 8.5vw;
+    text-transform: uppercase;
+    }
+    hr{
+      width:90%;
+      margin-top:20px;
+      margin-bottom:10px;
+    }
+h2 {
+  color: Black;
+  margin-left: 120px;
+  font-family: 'PT Serif', serif;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+
+
+#neo-objects p {
+  margin-bottom: 5px;
+  margin-left: 120px;
+  color:#623A06;
+  font-family: 'PT Serif', serif;
+}
+
+#neo-objects hr {
+  width:90%;
+  margin-top:10px;
+  margin-bottom:10px;
+}
